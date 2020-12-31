@@ -16,7 +16,7 @@ Four destination UDP addresses/ports are used:
 ./bootstrap
 ./configure --prefix=/usr/local  # or wherever your janus install lives
 make
-make install  # installs into {prefix}/lib/janus/plugins
+sudo make install  # installs into {prefix}/lib/janus/plugins
 ````
 
 ## Acknowledgements
